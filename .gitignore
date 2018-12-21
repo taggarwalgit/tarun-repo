@@ -1,0 +1,8 @@
+**/Debug
+**/.vs
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.log
+
