@@ -1,9 +1,11 @@
 #ifndef _STUDENT_H_
 #define _STUDENT_H_
 
-#define DllExport __declspec( dllexport )
+//#define DllExport __declspec( dllexport )
 
-class DllExport Student {
+class 
+   //DllExport 
+   Student {
 private:
    char* _name;
    int _age;
@@ -28,7 +30,9 @@ public:
    }
 
 
-   friend DllExport void operator<<(std::ostream&, const Student&);
+   friend 
+      //DllExport 
+      void operator<<(std::ostream&, const Student&);
 };
 
 #endif _STUDENT_H_
