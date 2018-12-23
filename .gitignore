@@ -1,5 +1,6 @@
-**/Debug
+**/BUILD_
 **/3rdParty
+**/Debug
 **/.vs
 *.obj
 *.pdb
