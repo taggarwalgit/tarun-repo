@@ -1,0 +1,1 @@
+This application explains the usage of ASSERT macro
